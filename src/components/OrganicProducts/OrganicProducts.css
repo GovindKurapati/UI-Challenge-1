@@ -1,0 +1,90 @@
+.organicProductBanner{
+    display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap:20px
+
+}
+
+.organicProductHeader{
+    text-align: center;
+    font-size: 40px;
+}
+
+.organicProductImg{
+    width: 100px;
+}
+
+.organicProductCard{
+    /* display: inline-flex;
+    flex-direction: row; */
+    display: inline-block;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    -moz-box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    box-shadow: 0 0 5px 3px rgb(241, 241, 241);
+    border-radius: 5px;
+    margin: 20px;
+    width: 260px;
+
+}
+
+.OrganicProductName{
+    font-weight: 500;
+    margin: 0;
+}
+
+.organicProductPrice{
+    color: #12b980;
+    margin: 5px 0;
+}
+
+.organicProductInfo{
+    padding: 10px 70px 10px 10px;
+    float: right;
+}
+
+.productBannerWrapper{
+    margin-top: 20px;
+    width: 300px;
+    height: 440px;
+    padding: 10px;
+    text-align: center;
+}
+
+.productBannerWrapper p{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+.productBannerWrapper p:first-child{
+    margin-top: 30px;
+}
+
+.productBannerWrapper button{
+    background-color: #ffba43;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.organicProductsWrapper{
+    width: 55%;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width:1165px){
+    .organicProductsWrapper{
+        width: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

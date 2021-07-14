@@ -1,0 +1,74 @@
+.cardLargeContainer{
+    display: inline-flex;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    -moz-box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    box-shadow: 0 0 5px 3px rgb(241, 241, 241);
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.cardImgWrapper img{
+    width: 220px;
+}
+
+.cardLargeInfoWrapper{
+    padding-top: 10px;
+}
+
+.cardLargeRatingWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardLargeActionWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardLargeDishType,.cardLargeDishName,.cardLargeDishPrice{
+    margin: 0;
+    text-align: left;
+}
+
+.cardLargeDishType{
+    font-size: 12px;
+}
+
+.cardLargeDishName{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.cardLargeDishPrice{
+    color: #12b980;
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+
+.cardLargeAddBtn,.cardLargeLikeBtn,.cardLargeViewBtn{
+    background-color: #ffba43;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border:none;
+}
+
+.cardLargeRightAction{
+    display: flex;
+    gap:5px
+}
+
+.cardLargeAddBtn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.cardLargeStarRating{
+    display: flex;
+    gap:2px;
+}

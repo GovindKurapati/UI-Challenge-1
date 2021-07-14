@@ -1,0 +1,111 @@
+.testimonialContainer {
+  background-color: #3bb77e;
+  padding: 10px;
+  margin: 50px 0;
+}
+
+.testimonialHeader {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.testimonialCard {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0 8px 6px -6px rgb(53, 52, 52);
+  -moz-box-shadow: 0 8px 6px -6px rgb(53, 52, 52);
+  box-shadow: 0 8px 6px -6px rgb(53, 52, 52);
+  margin: 15px;
+}
+
+.closeQuote {
+  /* content: '”';
+    content:'\201d'; 
+    font-size: 22px;*/
+  padding: 0 15px 0 20px;
+}
+
+.profileWrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3bb77e;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.profileName {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.profileRole {
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+
+.profileImageWrapper {
+  display: flex;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute;
+  right: 8px;
+  top: -20px;
+  -webkit-box-shadow: 0 0 2.5px 0 rgb(228, 226, 226);
+  -moz-box-shadow: 0 0 2.5px 0 rgb(228, 226, 226);
+  box-shadow: 0 0 2.5px 0 rgb(228, 226, 226);
+}
+
+.testimonialContentWrapper {
+  /* margin: 10px; */
+  display: flex;
+  margin: 5px 0 15px 0;
+}
+
+.testimonialContent {
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 20px;
+  width: 225px;
+}
+.profileImage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.testimonialWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0 20px 0;
+}
+
+.testimonialScrollActive,
+.testimonialScrollInActive {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.testimonialScrollInActive {
+  background-color: #9ad8bc;
+}
+
+.testimonialScrollWrapper {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
