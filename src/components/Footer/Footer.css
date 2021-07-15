@@ -1,0 +1,81 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: #e1f9ee;
+    flex-wrap: wrap;
+    padding: 80px 10px;
+}
+
+.brandDetailsWrapper{
+    width: 20%;
+}
+
+.brandNameTitle{
+    margin: 0;
+    font-size: 32px;
+}
+
+.brandDetailsWrapper p {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+    width: 85%;
+}
+
+.brandSocialLinksWrapper button{
+    background-color: #12b980;
+    border:none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.footerContainer p{
+    color:#4a4a4a;
+}
+
+.brandAddress{
+    display: inline-flex;
+    margin:  0 0 0 10px;
+}
+
+.addressInfo{
+    display: flex;
+    gap:5px;
+}
+
+.contactDetailsWrapper p{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.pagesLinkHeader,.informationHeader,.contactDetailsHeader{
+    font-size: 20px;
+    margin-top: 0;
+}
+.copyrightsTxt{
+    text-align: center;
+    font-size: 14px;
+    color: #4a4a4a;
+    background-color: #e1f9ee;
+    border-top: 1px solid #c5dacf;
+    margin: 0;
+    padding: 10px;
+    font-weight: 300;
+}
+
+@media (max-width:1010px){
+    .brandDetailsWrapper{
+        margin: 20px;
+    }
+    .brandDetailsWrapper,.brandDetailsWrapper p {
+        width: unset;
+    }
+
+}
+
+.fa-2x{
+    font-size: 1.5em;
+}

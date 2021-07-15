@@ -1,0 +1,91 @@
+.blogPostsContainer{
+    margin: 40px;
+}
+
+.blogPostsHeader{
+    font-size: 40px;
+    text-align: center;
+}
+
+.blogPostWrapper{
+    width: 300px;
+    -webkit-box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    -moz-box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    box-shadow: 0 0 2px 3px rgb(241, 241, 241);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.blogPostInfoWrapper{
+    padding: 20px 20px 20px 40px;
+    position: relative;
+}
+
+.blogGenre{
+    display: inline-block;
+    margin: 0;
+}
+
+.blogAdminBtn{
+    color:#12b980;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0;
+}
+
+.blogGenre{
+    background-color: #12b980;
+    color: white;
+    font-size: 12px;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.blogPostImage{
+    width: 100%;
+}
+
+.blogPostTitle{
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.blogPostShortContent{
+    width: 85%;
+    margin-top: 0;
+}
+
+.blogPostShortContent{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.readMore{
+    color: #12b980;
+    font-size: 12px;
+}
+
+.blogPostDate{
+    color: #12b980;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 50px;
+    left:-30px;
+    font-size: 12px;
+}
+
+.blogPostsWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

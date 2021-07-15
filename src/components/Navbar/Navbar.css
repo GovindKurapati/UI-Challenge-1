@@ -1,0 +1,76 @@
+.navbarContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pagesWrapper{
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brandName{
+    margin: 0;
+}
+
+.pagesWrapper a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.pagesWrapper a:last-of-type{
+    margin: 0;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.btn:first-child{
+    border-right: none;
+}
+
+select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+}
+
+.storeSelect{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.actionsWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.actionsWrapper button:nth-child(2),.actionsWrapper button:nth-child(3),.actionsWrapper button:nth-child(4){
+    margin-right: 5px;
+}
+
+.langSelect{
+    border: 2px solid black;
+    display: inline-flex;
+    padding: 8px;
+}
+
+.active{
+    color: #12b980;
+    border-bottom: 3px solid #12b980;
+}
+
+/* a:visited,a:focus,a:hover{
+    text-decoration: none;
+    color: black;
+} */
